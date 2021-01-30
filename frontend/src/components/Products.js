@@ -29,7 +29,7 @@ function Product() {
                       </a>
                       <div className="card-body">
                         <a href="product.html">
-                          <h2>Cousin Covers</h2>
+                          <h2>{product.name}</h2>
                         </a>
                         <div className="rating">
                           <span> <i className="fa fa-star"></i> </span>
