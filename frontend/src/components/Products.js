@@ -2,20 +2,22 @@ import React from 'react';
 import './Products.css'
 
 function Product() {
-    return(
 
-        <div className="grid-container">
-            <header className="row">
-             <div>
-               <a className="brand" href="index.html">Shopping Site</a>
-              </div>
-              <div>
-                <a href="cart.html">Cart</a>
-                <a href="signin.html">Sign In</a>
-              </div>
-             </header>
+  return(
+
+      <div className="grid-container">
+
+          <header className="row">
+            <div>
+              <a className="brand" href="index.html">Shopping Site</a>
+            </div>
+            <div>
+              <a href="cart.html">Cart</a>
+              <a href="signin.html">Sign In</a>
+            </div>
+          </header>
+
           <main>
-
             <div>
               <div className="row center">
                 <div className="card">
@@ -38,13 +40,13 @@ function Product() {
                 </div> 
              </div>
             </div>
-
           </main>
 
           <footer className="row center">All right reserved</footer>
-        </div>
 
-    )    
+      </div>
+
+  )    
 };
 
 export default Product;
