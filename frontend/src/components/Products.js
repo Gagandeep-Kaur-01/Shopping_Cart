@@ -4,10 +4,10 @@ import './Products.css'
 function Product() {
     return(
 
-        <div class="grid-container">
-            <header class="row">
+        <div className="grid-container">
+            <header className="row">
              <div>
-               <a class="brand" href="index.html">Shopping Site</a>
+               <a className="brand" href="index.html">Shopping Site</a>
               </div>
               <div>
                 <a href="cart.html">Cart</a>
@@ -17,157 +17,157 @@ function Product() {
           <main>
 
             <div>
-              <div class="row center">
+              <div className="row center">
 
-                <div class="card">
+                <div className="card">
                     <a href="product.html">
-                      <img class="medium" src="./images/cc-1.jpg" alt="product" />
+                      <img className="medium" src="./images/cc-1.jpg" alt="product" />
                     </a>
-                    <div class="card-body">
-                    <a href="product.html">
-                      <h2>Cousin Covers</h2>
-                    </a>
-                    <div class="rating">
-                      <span> <i class="fa fa-star"></i> </span>
-                      <span> <i class="fa fa-star"></i> </span>
-                      <span> <i class="fa fa-star"></i> </span>
-                      <span> <i class="fa fa-star"></i> </span>
-                      <span> <i class="fa fa-star"></i> </span>
-                    </div>
-                    <div class="price">$120</div>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <a href="product.html">         
-                    <img class="medium" src="./images/cc-2.jpg" alt="product" />
-                  </a>
-                  <div class="card-body">
+                    <div className="card-body">
                     <a href="product.html">
                       <h2>Cousin Covers</h2>
                     </a>
-                    <div class="rating">
-                      <span> <i class="fa fa-star"></i> </span>
-                      <span> <i class="fa fa-star"></i> </span>
-                      <span> <i class="fa fa-star"></i> </span>
-                      <span> <i class="fa fa-star"></i> </span>
-                      <span> <i class="fa fa-star"></i> </span>
+                    <div className="rating">
+                      <span> <i className="fa fa-star"></i> </span>
+                      <span> <i className="fa fa-star"></i> </span>
+                      <span> <i className="fa fa-star"></i> </span>
+                      <span> <i className="fa fa-star"></i> </span>
+                      <span> <i className="fa fa-star"></i> </span>
                     </div>
-                    <div class="price">$120</div>
+                    <div className="price">$120</div>
                   </div>
                 </div>
 
-                <div class="card">
+                <div className="card">
                   <a href="product.html">         
-                    <img class="medium" src="./images/cc-3.jpg" alt="product" />
+                    <img className="medium" src="./images/cc-2.jpg" alt="product" />
                   </a>
-                  <div class="card-body">
+                  <div className="card-body">
                     <a href="product.html">
                       <h2>Cousin Covers</h2>
                     </a>
-                    <div class="rating">
-                      <span> <i class="fa fa-star"></i> </span>
-                      <span> <i class="fa fa-star"></i> </span>
-                      <span> <i class="fa fa-star"></i> </span>
-                      <span> <i class="fa fa-star"></i> </span>
-                      <span> <i class="fa fa-star"></i> </span>
+                    <div className="rating">
+                      <span> <i className="fa fa-star"></i> </span>
+                      <span> <i className="fa fa-star"></i> </span>
+                      <span> <i className="fa fa-star"></i> </span>
+                      <span> <i className="fa fa-star"></i> </span>
+                      <span> <i className="fa fa-star"></i> </span>
                     </div>
-                    <div class="price">$120</div>
+                    <div className="price">$120</div>
                   </div>
                 </div>
 
-                <div class="card">
+                <div className="card">
                   <a href="product.html">         
-                    <img class="medium" src="./images/cc-4.jpg" alt="product" />
+                    <img className="medium" src="./images/cc-3.jpg" alt="product" />
                   </a>
-                  <div class="card-body">
+                  <div className="card-body">
                     <a href="product.html">
                       <h2>Cousin Covers</h2>
                     </a>
-                    <div class="rating">
-                      <span> <i class="fa fa-star"></i> </span>
-                      <span> <i class="fa fa-star"></i> </span>
-                      <span> <i class="fa fa-star"></i> </span>
-                      <span> <i class="fa fa-star"></i> </span>
-                      <span> <i class="fa fa-star"></i> </span>
+                    <div className="rating">
+                      <span> <i className="fa fa-star"></i> </span>
+                      <span> <i className="fa fa-star"></i> </span>
+                      <span> <i className="fa fa-star"></i> </span>
+                      <span> <i className="fa fa-star"></i> </span>
+                      <span> <i className="fa fa-star"></i> </span>
                     </div>
-                    <div class="price">$120</div>
+                    <div className="price">$120</div>
                   </div>
                 </div>
 
-                <div class="card">
+                <div className="card">
                   <a href="product.html">         
-                    <img class="medium" src="./images/sc-1.jpg" alt="product" />
+                    <img className="medium" src="./images/cc-4.jpg" alt="product" />
                   </a>
-                  <div class="card-body">
+                  <div className="card-body">
+                    <a href="product.html">
+                      <h2>Cousin Covers</h2>
+                    </a>
+                    <div className="rating">
+                      <span> <i className="fa fa-star"></i> </span>
+                      <span> <i className="fa fa-star"></i> </span>
+                      <span> <i className="fa fa-star"></i> </span>
+                      <span> <i className="fa fa-star"></i> </span>
+                      <span> <i className="fa fa-star"></i> </span>
+                    </div>
+                    <div className="price">$120</div>
+                  </div>
+                </div>
+
+                <div className="card">
+                  <a href="product.html">         
+                    <img className="medium" src="./images/sc-1.jpg" alt="product" />
+                  </a>
+                  <div className="card-body">
                     <a href="product.html">
                       <h2>Sofa Covers</h2>
                     </a>
-                    <div class="rating">
-                      <span> <i class="fa fa-star"></i> </span>
-                      <span> <i class="fa fa-star"></i> </span>
-                      <span> <i class="fa fa-star"></i> </span>
-                      <span> <i class="fa fa-star"></i> </span>
-                      <span> <i class="fa fa-star"></i> </span>
+                    <div className="rating">
+                      <span> <i className="fa fa-star"></i> </span>
+                      <span> <i className="fa fa-star"></i> </span>
+                      <span> <i className="fa fa-star"></i> </span>
+                      <span> <i className="fa fa-star"></i> </span>
+                      <span> <i className="fa fa-star"></i> </span>
                     </div>
-                    <div class="price">$120</div>
+                    <div className="price">$120</div>
                   </div>
                 </div>
 
-                <div class="card">
+                <div className="card">
                     <a href="product.html">         
-                      <img class="medium" src="./images/sc-2.jpg" alt="product" />
+                      <img className="medium" src="./images/sc-2.jpg" alt="product" />
                     </a>
-                    <div class="card-body">
+                    <div className="card-body">
                       <a href="product.html">
                         <h2>Sofa Covers</h2>
                       </a>
-                      <div class="rating">
-                        <span> <i class="fa fa-star"></i> </span>
-                        <span> <i class="fa fa-star"></i> </span>
-                        <span> <i class="fa fa-star"></i> </span>
-                        <span> <i class="fa fa-star"></i> </span>
-                        <span> <i class="fa fa-star"></i> </span>
+                      <div className="rating">
+                        <span> <i className="fa fa-star"></i> </span>
+                        <span> <i className="fa fa-star"></i> </span>
+                        <span> <i className="fa fa-star"></i> </span>
+                        <span> <i className="fa fa-star"></i> </span>
+                        <span> <i className="fa fa-star"></i> </span>
                       </div>
-                      <div class="price">$120</div>
+                      <div className="price">$120</div>
                     </div>
                 </div>
 
-                <div class="card">
+                <div className="card">
                     <a href="product.html">
-                      <img class="medium" src="./images/sc-3.jpg" alt="product" />
+                      <img className="medium" src="./images/sc-3.jpg" alt="product" />
                     </a>
-                    <div class="card-body">
+                    <div className="card-body">
                       <a href="product.html">
                         <h2>Sofa Covers</h2>
                       </a>
-                     <div class="rating">
-                       <span> <i class="fa fa-star"></i> </span>
-                       <span> <i class="fa fa-star"></i> </span>
-                       <span> <i class="fa fa-star"></i> </span>
-                       <span> <i class="fa fa-star"></i> </span>
-                       <span> <i class="fa fa-star-half-o"></i> </span>
+                     <div className="rating">
+                       <span> <i className="fa fa-star"></i> </span>
+                       <span> <i className="fa fa-star"></i> </span>
+                       <span> <i className="fa fa-star"></i> </span>
+                       <span> <i className="fa fa-star"></i> </span>
+                       <span> <i className="fa fa-star-half-o"></i> </span>
                       </div>
-                      <div class="price">$120</div>
+                      <div className="price">$120</div>
                     </div>
                 </div>
 
-                <div class="card">
+                <div className="card">
                     <a href="product.html">
-                      <img class="medium" src="./images/sc-4.jpg" alt="product" />
+                      <img className="medium" src="./images/sc-4.jpg" alt="product" />
                     </a>
-                    <div class="card-body">
+                    <div className="card-body">
                       <a href="product.html">
                         <h2>Sofa Covers</h2>
                       </a>
-                     <div class="rating">
-                       <span> <i class="fa fa-star"></i> </span>
-                       <span> <i class="fa fa-star"></i> </span>
-                       <span> <i class="fa fa-star"></i> </span>
-                       <span> <i class="fa fa-star"></i> </span>
-                       <span> <i class="fa fa-star-half-o"></i> </span>
+                     <div className="rating">
+                       <span> <i className="fa fa-star"></i> </span>
+                       <span> <i className="fa fa-star"></i> </span>
+                       <span> <i className="fa fa-star"></i> </span>
+                       <span> <i className="fa fa-star"></i> </span>
+                       <span> <i className="fa fa-star-half-o"></i> </span>
                       </div>
-                      <div class="price">$120</div>
+                      <div className="price">$120</div>
                     </div>
                 </div>    
                 
@@ -177,7 +177,7 @@ function Product() {
             
 
         </main>
-        <footer class="row center">All right reserved</footer>
+        <footer className="row center">All right reserved</footer>
     </div>
 
     )    
