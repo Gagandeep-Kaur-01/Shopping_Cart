@@ -10,11 +10,13 @@ function Product() {
 
           <header className="row">
             <div>
-              <a className="brand" href="index.html">Shopping Site</a>
+              <a className="brand" href="/">
+                Shopping Site
+              </a>
             </div>
             <div>
-              <a href="cart.html">Cart</a>
-              <a href="signin.html">Sign In</a>
+              <a href="/cart">Cart</a>
+              <a href="/signin">Sign In</a>
             </div>
           </header>
 
