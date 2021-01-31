@@ -29,7 +29,7 @@ function Product() {
                         <img className="medium" src="./images/cc-1.jpg" alt="product" />
                       </a>
                       <div className="card-body">
-                        <a href="product.html">
+                        <a href={`/product/${product._id}`}>
                           <h2>{product.name}</h2>
                         </a>
                         <div className="rating">
