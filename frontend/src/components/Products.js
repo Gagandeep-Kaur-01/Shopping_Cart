@@ -36,7 +36,10 @@ function Product() {
                           <h2>{product.name}</h2>
                         </a>
 
-                        <Rating rating={product.rating} numReviews={product.numReviews} />
+                        <Rating
+                          rating={product.rating} 
+                          numReviews={product.numReviews}
+                        ></Rating> 
                         
                         <div className="price">${product.price}</div>
                       </div>
