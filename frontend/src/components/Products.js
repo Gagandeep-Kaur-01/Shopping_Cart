@@ -25,7 +25,7 @@ function Product() {
                 {data.products.map((product) => (
 
                     <div key={product._id} className="card">
-                      <a href="product.html">
+                      <a href={`/product/${product._id}`}>
                         <img className="medium" src="./images/cc-1.jpg" alt="product" />
                       </a>
                       <div className="card-body">
