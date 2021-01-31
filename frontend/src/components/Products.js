@@ -1,6 +1,7 @@
 import React from 'react';
 import data from '../data'
 import './Products.css'
+import Rating from './Rating';
 
 function Product() {
 
@@ -34,13 +35,9 @@ function Product() {
                         <a href={`/product/${product._id}`}>
                           <h2>{product.name}</h2>
                         </a>
-                        <div className="rating">
-                          <span> <i className="fa fa-star"></i> </span>
-                          <span> <i className="fa fa-star"></i> </span>
-                          <span> <i className="fa fa-star"></i> </span>
-                          <span> <i className="fa fa-star"></i> </span>
-                          <span> <i className="fa fa-star"></i> </span>
-                        </div>
+
+                        <Rating />
+                        
                         <div className="price">${product.price}</div>
                       </div>
                     </div> 
