@@ -7,7 +7,7 @@ const data = {
             image: '/images/cc-1.jpg',
             price: 120,
             rating: 4.0,
-            numReview: 10,
+            numReviews: 12,
             description: 'high quality product',
         },
         {
@@ -17,7 +17,7 @@ const data = {
             image: '/images/cc-2.jpg',
             price: 200,
             rating: 4.5,
-            numReview: 10,
+            numReviews: 20,
             description: 'high quality product',
         },
         {
@@ -27,7 +27,7 @@ const data = {
             image: '/images/cc-3.jpg',
             price: 180,
             rating: 4.5,
-            numReview: 10,
+            numReviews: 40,
             description: 'high quality product',
         },
         {
@@ -36,8 +36,8 @@ const data = {
             category: 'Cousins',
             image: '/images/cc-4.jpg',
             price: 100,
-            rating: 4.5,
-            numReview: 10,
+            rating: 3.5,
+            numReviews: 50,
             description: 'high quality product',
         },
         {
@@ -46,8 +46,8 @@ const data = {
             category: 'Sofa',
             image: '/images/sc-1.jpg',
             price: 520,
-            rating: 4.5,
-            numReview: 10,
+            rating: 4.0,
+            numReviews: 30,
             description: 'high quality product',
         },
         {
@@ -57,7 +57,7 @@ const data = {
             image: '/images/sc-2.jpg',
             price: 680,
             rating: 4.5,
-            numReview: 10,
+            numReviews: 10,
             description: 'high quality product',
         },
         {
@@ -67,7 +67,7 @@ const data = {
             image: '/images/sc-3.jpg',
             price: 800,
             rating: 4.0,
-            numReview: 10,
+            numReviews: 30,
             description: 'high quality product',
         },
         {
@@ -77,7 +77,7 @@ const data = {
             image: '/images/sc-4.jpg',
             price: 380,
             rating: 3.5,
-            numReview: 10,
+            numReviews: 70,
             description: 'good quality product',
         },
     ],
