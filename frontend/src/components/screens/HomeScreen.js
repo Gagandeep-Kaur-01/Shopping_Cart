@@ -1,10 +1,11 @@
 import React from 'react';
+import Product from '../Products';
 
 export default function HomeScreen() {
 
     return(
-        <div>
-            Home Screen
+        <div> 
+          <Product />
         </div>
     )
 }
