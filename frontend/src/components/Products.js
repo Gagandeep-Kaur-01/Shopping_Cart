@@ -26,7 +26,7 @@ function Product() {
 
                     <div key={product._id} className="card">
                       <a href={`/product/${product._id}`}>
-                        <img className="medium" src="./images/cc-1.jpg" alt="product" />
+                        <img className="medium" src={product.image} alt={product.name} />
                       </a>
                       <div className="card-body">
                         <a href={`/product/${product._id}`}>
