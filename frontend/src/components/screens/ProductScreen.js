@@ -1,6 +1,7 @@
 import React from 'react';
 import Product from '../Products';
 import data from '../../data';
+import Rating from '../Rating'
 
 export default function ProductScreen(props) {
     const product = data.products.find(x => x._id === props.match.params.id);
@@ -25,6 +26,12 @@ export default function ProductScreen(props) {
                        <li>
                            <h1>{product.name}</h1>
                        </li>
+                       <li>
+                          <Rating
+                            rating={product.rating}
+                            numReviews={product.numReviews}
+                           ></Rating>
+                         </li>
                    </ul>
 
                </div>
