@@ -38,3 +38,10 @@ button.primary {
 button.block {
   width: 100%;
 }
+/* Alert */
+.success {
+  color: #20a020;
+}
+.error {
+  color: #a02020;
+}
