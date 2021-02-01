@@ -1,0 +1,19 @@
+{
+  "name": "shopping_cart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gagandeep-Kaur-01/Shopping_Cart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gagandeep-Kaur-01/Shopping_Cart/issues"
+  },
+  "homepage": "https://github.com/Gagandeep-Kaur-01/Shopping_Cart#readme"
+}
