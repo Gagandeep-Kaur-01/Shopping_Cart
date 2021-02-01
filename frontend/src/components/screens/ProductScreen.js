@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import Product from '../Products';
 import data from '../../data';
 import Rating from '../Rating';
@@ -18,6 +19,7 @@ export default function ProductScreen(props) {
     // if product exists
     return(
         <div>
+           <Link to="/">Back to result</Link>
            <div className="row top">
                <div className="col-2">
                    <img className="large" src={product.image} alt={product.name}></img>
