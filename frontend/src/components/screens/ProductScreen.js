@@ -4,7 +4,17 @@ export default function ProductScreen() {
 
     return(
         <div>
-            Product Screen
+           <div className="row">
+               <div className="col-2">
+
+               </div>
+               <div className="col-1">
+
+               </div>
+               <div className="col-1">
+                   
+               </div>
+           </div>
         </div>
     )
 }
