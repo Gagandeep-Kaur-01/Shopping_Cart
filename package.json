@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Gagandeep-Kaur-01/Shopping_Cart/issues"
   },
-  "homepage": "https://github.com/Gagandeep-Kaur-01/Shopping_Cart#readme"
+  "homepage": "https://github.com/Gagandeep-Kaur-01/Shopping_Cart#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
