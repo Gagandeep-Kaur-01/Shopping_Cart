@@ -1,7 +1,8 @@
 import React from 'react';
 import Product from '../Products';
 import data from '../../data';
-import Rating from '../Rating'
+import Rating from '../Rating';
+import './ProductScreen.css';
 
 export default function ProductScreen(props) {
     const product = data.products.find(x => x._id === props.match.params.id);
