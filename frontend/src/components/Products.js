@@ -4,6 +4,7 @@ import './Products.css'
 import Rating from './Rating';
 
 function Product() {
+  const [products, setProducts] = useState([]);
 
   return (
           <div>
