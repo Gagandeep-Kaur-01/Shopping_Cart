@@ -6,10 +6,6 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
-    /*
-    Nodemon: is a package that automatically re-run the node application, 
-    when there is a change in the code.  
-    */ 
   },
   "repository": {
     "type": "git",
